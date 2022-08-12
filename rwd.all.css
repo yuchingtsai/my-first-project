@@ -1,0 +1,340 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ nav{
+    width:367px;
+    height:100vh;
+    background-color: rgb(206, 211, 212);
+    float: left;
+    padding-top: 75px;
+    
+    
+ }
+ main{
+    width: calc(100% - 367px);
+   height: 100vh;
+    background-color: rgb(116, 128, 112);
+    float: right;
+   position: relative;
+ }     
+
+ .logo{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin: auto;
+    margin-bottom: 60px;
+
+ }
+ .links{
+    margin: auto;
+    width: 150px;
+    width: 150px;
+    height: 150px; 
+    
+ }
+ a{
+    display:block ;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.container{
+    width: 955PX;
+    height: 570PX;
+    background-color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container > div{
+    width: 315px;
+    height: 570px;
+    background-color: brown;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.x{background-image: url('/0809/img/photooriginal-2198842-QHbtV.jpg');
+    background-position: center;
+
+}
+
+.y{
+    background-image: url('/0809/img/286363_mtq4b3xj.jpg');
+    margin: 0px 5px;
+    background-position: 50% 30%;}
+
+.z{background-image: url('/0809/img/original.jpg');
+    background-position: 50%  10% ;
+
+}
+.x:hover{
+    background-size: 400%;
+    background-position: 55% 30%;
+}
+.y:hover{
+    background-size: 400%;
+}
+.z:hover{
+    background-size: 300%;
+    background-position: 55% 30%;
+}
+@media (max-width:1400px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+     }
+     
+     nav{
+        width:367px;
+        height: 100vh;
+        background-color: rgb(206, 211, 212);
+        float: left;
+        padding-top: 75px;
+     }
+     main{
+        width: calc(100% - 367px);
+        height: 100vh;
+        background-color: rgb(116, 128, 112);
+        float: right;
+        position: relative;
+     }     
+    
+     .logo{
+        width: 150px;
+        height: 150px;
+        background-color: brown;
+        margin: auto;
+        margin-bottom: 60px;
+    
+     }
+     .links{
+        margin: auto;
+        width: 150px; 
+        
+     }
+     a{
+        display:block ;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .container{
+        width: 800px;
+        height: 570px;
+        background-color: bisque;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    
+    .container .x{
+        width: 800px;
+        height: 280px;
+        margin-bottom: 10px;
+        background-color: brown;
+    
+    }
+    
+    .container .y{
+       
+        width: 395px;
+        height: 280px;
+        margin: 0px;
+        background-color: brown;
+        float: left;
+       }
+    
+    .container .z{
+        
+        width: 395px;
+        height: 280px;
+        background-position: 50%  10% ;
+        background-color: brown;
+        float: right;
+        
+    
+    }
+    
+
+}
+@media (max-width:1200px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+     }
+
+     nav{
+        width:100%;
+        height: 100px;
+        background-color: rgb(206, 211, 212);
+        padding: 10px 35px ;
+        float: unset;
+     }
+     .logo{
+        width: 80px;
+        height: 80px;
+        background-color: brown;
+        float: left;
+        margin: 0px;
+
+        
+     }
+     .links{
+        height: 100%;
+        float: right;
+        margin:0px;
+        width: unset;
+     }
+     main{
+        width: 100%;
+        padding: 50px 35px 75px;
+        /* background-color: rgb(116, 128, 112); */
+        position: unset;
+        height: unset;
+        float: unset;
+        
+     }     
+    
+     
+     a{
+        margin-left: 40px;
+        line-height: 80px;
+        display: unset;
+        margin: 0px;
+        text-align: unset;
+     }
+     
+    
+    .container{
+        width: 100%;
+        height: 800px;
+        background-color: bisque;
+        position: unset;
+        transform: unset;
+        
+        
+    }
+    
+    .container .x{
+        width: 100%;
+        height: calc(50% - 5px);
+        background-color: brown;
+        margin-bottom: 10px;
+        
+    }
+    
+    .container .y{
+        width:calc(50% - 5px);;
+        height: calc(50% - 5px);
+        background-color: brown;
+        float: left;
+        }
+    
+        .container .z{
+        width: calc(50% - 5px);;
+        height: calc(50% - 5px);
+        background-color: brown;
+        float: right;
+    
+    }
+    
+    
+    
+}
+@media (max-width:550px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+       }
+     
+     nav{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(206, 211, 212);
+        padding: 15px 18px;
+        position: relative;
+        
+       }
+    
+     .logo{
+        width: 56px;
+        height: 56px;
+        background-color: brown;
+        position: absolute;
+        top: calc(50% - 28px);
+        left: calc(50% - 28px);
+        
+    
+       }
+     .links{
+        width: 40px;
+        height: 50px;
+        background-color: brown;
+        float: unset;
+        }
+        .links:hover{
+          width: 100px;
+          height: 100px;
+          padding: 10px;
+          background-color: rgb(118, 134, 187);
+          
+        }
+        
+      a{
+          display: none;
+          line-height: 24px;
+    
+       }
+       a:hover{
+          display: inline;
+          
+       }
+       .links:hover > a{
+          display: inline;
+          
+       }
+      
+     main{
+            width: 100%;
+            min-height: calc(100vh - 80px);
+            background-color: rgb(116, 128, 112);
+            
+       }     
+       .container{
+            width:100%;
+            height: unset;
+            
+        }
+        .container .x{
+          width: 100%;
+          height: 195px;
+          /* 設定最小高度，確保高度變大可以自動填滿的同時 變小又不會擠壓內容空間 */
+          background-color: rgb(144, 148, 142);
+          margin-bottom: 0px;
+        }
+        .container .y{
+          width: 100%;
+          height: 195px;
+          background-color: rgb(136, 139, 134);
+        }
+        .container .z{
+          width: 100%;
+          height: 195px;
+          background-color: rgb(144, 148, 142);
+        }
+            
+}
