@@ -61,17 +61,17 @@
     background-repeat: no-repeat;
     
 }
-.x{background-image: url('/0809/img/photooriginal-2198842-QHbtV.jpg');
+.x{background-image: url('./img/photooriginal-2198842-QHbtV.jpg');
     background-position: center;
 
 }
 
 .y{
-    background-image: url('/0809/img/286363_mtq4b3xj.jpg');
+    background-image: url('./img/286363_mtq4b3xj.jpg');
     margin: 0px 5px;
     background-position: 50% 30%;}
 
-.z{background-image: url('/0809/img/original.jpg');
+.z{background-image: url('./img/original.jpg');
     background-position: 50%  10% ;
 
 }
